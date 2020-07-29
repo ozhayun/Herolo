@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Herolo Site]" guice-stage="DEVELOPMENT">
+  <test name="Herolo Test(failed)">
+    <classes>
+      <class name="Herolo">
+        <methods>
+          <include name="whatsApp"/>
+          <include name="definitions"/>
+          <include name="helpPage"/>
+          <include name="quit"/>
+          <include name="textCheckMainPage"/>
+        </methods>
+      </class> <!-- Herolo -->
+    </classes>
+  </test> <!-- Herolo Test(failed) -->
+</suite> <!-- Failed suite [Herolo Site] -->

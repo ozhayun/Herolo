@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Herolo Site" verbose="1" >
+    <test name="Herolo Test" >
+        <classes>
+            <class name="Herolo"/>
+        </classes>
+    </test>
+</suite>
